@@ -1,6 +1,6 @@
 package burger;
 
-public class Order {
+public class OrderBurger {
 
     public void run() {
 //        while(true) {
