@@ -1,6 +1,8 @@
-package app.product;
+package burger.product.detailproduct;
 
-public class Hamburger extends Product{
+import burger.product.Product;
+
+public class Hamburger extends Product {
     private boolean isSet;
     private int burgerSetPrice;
 

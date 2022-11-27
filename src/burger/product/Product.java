@@ -1,4 +1,4 @@
-package app.product;
+package burger.product;
 
 public class Product {
     private int id;

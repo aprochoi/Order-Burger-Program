@@ -1,6 +1,8 @@
-package app.product;
+package burger.product.detailproduct;
 
-public class Side extends Product{
+import burger.product.Product;
+
+public class Side extends Product {
     private int ketchup;
 
     public Side(int id, String name, int price, int kcal, int ketchup) {

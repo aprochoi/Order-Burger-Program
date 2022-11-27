@@ -1,4 +1,6 @@
-package app.product;
+package burger.product.detailproduct;
+
+import burger.product.Product;
 
 public class HamburgerSet extends Product {
     private Hamburger hamburger;
