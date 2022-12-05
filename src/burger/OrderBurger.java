@@ -12,9 +12,11 @@ public class OrderBurger {
         ProductRepository productRepository = new ProductRepository();
         Product[] products = productRepository.getProducts();
         Menu menu = new Menu(products);
+        Cart cart = new Cart();
 
         System.out.println("🍔 햄버거 주문 프로그램");
         menu.showMenu();
         String choice = sc.nextLine();
+        if(choice.equals("0")) cart.showCart();
     }
 }
